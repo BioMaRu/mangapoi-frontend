@@ -1,0 +1,1 @@
+mangapoi-frontend
