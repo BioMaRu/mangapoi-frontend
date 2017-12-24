@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Poi Poi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="assets/css/biomatic.full.min.css" />
+  <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  <link href="https://fonts.googleapis.com/css?family=Prompt:400,600" rel="stylesheet">
+</head>
+<body class="_bgcl-neutral-200">
+  <div id="app">
+
+    <nav class="_dp-f _jtfct-spbtw _alit-str _bgcl-neutral-900 _cl-white _pdh-16px" style="height: 72px">
+      <div class="_dp-f _alit-ct">
+        <img src="" alt="logo">
+      </div>
+      <div class="_dp-f">
+        <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
+          Menu 1
+        </a>
+        <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
+          Menu 2
+        </a>
+        <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
+          Menu 3
+        </a>
+      </div>
+    </nav>
+
+    <!-- Top -->
+    <div class="_dp-f _alit-ct _jtfct-ct _bgcl-neutral-800 _cl-white" style="height: 400px">
+      BANNER CONTENT
+    </div>
+
+    <div class="lo-container">
+      <div class="_dp-f">
+        <div class="_f-1">
+          <h2 class="_font-secondary _cl-neutral-700">อัพเดตตอนใหม่</h2>
+          <div class="lo-12 lo-6-mg -gapv-16px -gaph-4px">
+            <manga-card v-for="i in 8" :key="i"></manga-card>
+          </div>
+        </div>
+        <div class="bio-panel _als-fst _pd-16px _mgl-32px _mgt-64px" style="width: 350px">
+          a
+        </div>
+      </div>
+    </div>
+
+    <footer class="_mgt-32px _pd-32px _bgcl-neutral-700 _cl-white">
+      Footer
+    </footer>
+  </div>
+</body>
+
+<!-- Poi Manga Card -->
+<script type="text/x-template" id="manga-card">
+  <div class="poi-card-manga">
+    <a class="cover" href="#">
+      <img
+        src="http://s2.mgicdn.com/avatar/574-tsugumomo.jpg"
+        width="100%"
+        height="auto"
+        alt="cover">
+    </a>
+    <a href="#" class="title">
+      <h5>Neko Aimashita</h5>
+    </a>
+    <a href="#" class="author">
+      <div>
+        <small>แปล – Rabbitbou</small>
+      </div>
+    </a>
+    <div class="time">
+      <small>เมื่อ 6 นาทีที่แล้ว</small>
+    </div>
+    <div class="chapter">
+      <a class="" href="#">
+        <p>
+          <strong class="_cl-accent">ตอนที่ 11</strong> – การหลบหนีครั้งใหญ่ (ครึ่งหลัง)
+        </p>
+      </a>
+      <a href="#">
+        <p>
+          <strong class="_cl-accent">ตอนที่ 10</strong> – การหลบหนีครั้งใหญ่ (ครึ่งแรก)
+        </p>
+      </a>
+    </div>
+  </div>
+</script>
+
+<script>
+  Vue.component('manga-card', {
+    template: '#manga-card'
+  })
+
+  const app = new Vue({
+    el: '#app',
+    data: {
+      message: 'Hello Vue!'
+    }
+  })
+</script>
+</html>
