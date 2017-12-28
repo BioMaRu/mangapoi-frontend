@@ -26,7 +26,7 @@ strong {
   font-weight: bolder; }
 
 small {
-  font-size: 80%; }
+  font-size: .8rem; }
 
 h1, h2, h3, h4, h5 {
   margin: 0; }
@@ -160,14 +160,11 @@ i {
   Mapping Value
 ======================================*/
 html {
-  color: rgba(57, 59, 70, 0.9);
+  color: rgba(57, 59, 70, 0.8);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
-
-._font-secondary {
-  font-family: "Prompt", sans-serif; }
 
 .bio-accordion {
   display: grid;
@@ -202,10 +199,10 @@ html {
     padding-left: 18px; }
   .bio-accordion.-has-icon > label:before {
     content: "";
-    border: 2px solid rgba(57, 59, 70, 0.9);
+    border: 2px solid rgba(57, 59, 70, 0.8);
     border-right-width: 0px;
     border-top-width: 0px;
-    border-color: rgba(57, 59, 70, 0.9);
+    border-color: rgba(57, 59, 70, 0.8);
     height: 8px;
     width: 8px;
     position: absolute;
@@ -224,37 +221,37 @@ html {
   display: flex;
   flex-wrap: wrap; }
   .bio-breadcrumb > * {
-    color: rgba(57, 59, 70, 0.9);
+    color: rgba(57, 59, 70, 0.8);
     opacity: .9; }
     .bio-breadcrumb > * > * {
-      color: rgba(57, 59, 70, 0.9);
+      color: rgba(57, 59, 70, 0.8);
       opacity: .9; }
     .bio-breadcrumb > *:not(:first-child):before {
       content: "/";
-      color: rgba(57, 59, 70, 0.9);
+      color: rgba(57, 59, 70, 0.8);
       opacity: .4;
       margin-left: 8px;
       margin-right: 8px; }
     .bio-breadcrumb > *:last-child {
-      color: rgba(57, 59, 70, 0.9);
+      color: rgba(57, 59, 70, 0.8);
       opacity: 1; }
 
 progress.bio-progress[value] {
   appearance: none;
-  border: 0px solid rgba(57, 59, 70, 0.9);
+  border: 0px solid rgba(57, 59, 70, 0.8);
   width: 100%;
   border-radius: 3px;
   overflow: hidden; }
   progress.bio-progress[value]::-webkit-progress-bar {
     background-color: rgba(230, 229, 229, 0.8); }
   progress.bio-progress[value]::-webkit-progress-value {
-    background-color: #1f9eff; }
+    background-color: #1a9cff; }
   progress.bio-progress[value]::-moz-progress-bar {
-    background-color: #1f9eff; }
+    background-color: #1a9cff; }
   progress.bio-progress[value].-accent::-webkit-progress-value {
-    background-color: #ff3355; }
+    background-color: #ff4d6a; }
   progress.bio-progress[value].-accent::-moz-progress-bar {
-    background-color: #ff3355; }
+    background-color: #ff4d6a; }
   progress.bio-progress[value].-positive::-webkit-progress-value {
     background-color: #17cf73; }
   progress.bio-progress[value].-positive::-moz-progress-bar {
@@ -272,9 +269,9 @@ progress.bio-progress[value] {
   progress.bio-progress[value].-info::-moz-progress-bar {
     background-color: #4dc4ff; }
   progress.bio-progress[value].-dark::-webkit-progress-value {
-    background-color: rgba(57, 59, 70, 0.9); }
+    background-color: rgba(57, 59, 70, 0.8); }
   progress.bio-progress[value].-dark::-moz-progress-bar {
-    background-color: rgba(57, 59, 70, 0.9); }
+    background-color: rgba(57, 59, 70, 0.8); }
   progress.bio-progress[value].-black::-webkit-progress-value {
     background-color: black; }
   progress.bio-progress[value].-black::-moz-progress-bar {
@@ -287,47 +284,47 @@ progress.bio-progress[value] {
   font-weight: 400;
   outline: none;
   text-decoration: none;
-  color: #1f9eff;
+  color: #1a9cff;
   transition: background-color 0.2s ease, border-color 0.2s ease; }
   .bio-link:before, .bio-link:after {
     pointer-events: none;
     backface-visibility: hidden; }
   .bio-link:hover, .bio-link:focus, .bio-link.-active {
-    color: #0085eb; }
+    color: #0082e6; }
   .bio-link.-fancy {
-    border-bottom-color: #1f9eff;
+    border-bottom-color: #1a9cff;
     border-bottom: 1px solid; }
     .bio-link.-fancy:hover, .bio-link.-fancy:focus, .bio-link.-fancy.-active {
-      border-color: rgba(31, 158, 255, 0.1);
-      background-color: rgba(31, 158, 255, 0.2); }
+      border-color: rgba(26, 156, 255, 0.1);
+      background-color: rgba(26, 156, 255, 0.2); }
   .bio-link.-item {
-    color: rgba(57, 59, 70, 0.9);
+    color: rgba(57, 59, 70, 0.8);
     padding: 8px 16px;
     margin-bottom: 2px;
     border-radius: 2px; }
     .bio-link.-item:hover, .bio-link.-item:focus, .bio-link.-item.-active {
-      background-color: #ebf6ff;
-      color: #1f9eff; }
+      background-color: #e6f4ff;
+      color: #1a9cff; }
   .bio-link.-primary {
-    color: #1f9eff; }
+    color: #1a9cff; }
     .bio-link.-primary:hover, .bio-link.-primary:focus, .bio-link.-primary.-active {
-      color: #0085eb; }
+      color: #0082e6; }
     .bio-link.-primary.-fancy {
-      border-bottom-color: #1f9eff;
+      border-bottom-color: #1a9cff;
       border-bottom: 1px solid; }
       .bio-link.-primary.-fancy:hover, .bio-link.-primary.-fancy:focus, .bio-link.-primary.-fancy.-active {
-        border-color: rgba(31, 158, 255, 0.1);
-        background-color: rgba(31, 158, 255, 0.1); }
+        border-color: rgba(26, 156, 255, 0.1);
+        background-color: rgba(26, 156, 255, 0.1); }
   .bio-link.-accent {
-    color: #ff3355; }
+    color: #ff4d6a; }
     .bio-link.-accent:hover, .bio-link.-accent:focus, .bio-link.-accent.-active {
-      color: #ff002b; }
+      color: #ff1a40; }
     .bio-link.-accent.-fancy {
-      border-bottom-color: #ff3355;
+      border-bottom-color: #ff4d6a;
       border-bottom: 1px solid; }
       .bio-link.-accent.-fancy:hover, .bio-link.-accent.-fancy:focus, .bio-link.-accent.-fancy.-active {
-        border-color: rgba(255, 51, 85, 0.05);
-        background-color: rgba(255, 51, 85, 0.1); }
+        border-color: rgba(255, 77, 106, 0.05);
+        background-color: rgba(255, 77, 106, 0.1); }
   .bio-link.-positive {
     color: #17cf73; }
     .bio-link.-positive:hover, .bio-link.-positive:focus, .bio-link.-positive.-active {
@@ -369,15 +366,15 @@ progress.bio-progress[value] {
         border-color: rgba(77, 196, 255, 0.05);
         background-color: rgba(77, 196, 255, 0.1); }
   .bio-link.-dark {
-    color: rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8); }
     .bio-link.-dark:hover, .bio-link.-dark:focus, .bio-link.-dark.-active {
-      color: rgba(23, 24, 28, 0.9); }
+      color: rgba(23, 24, 28, 0.8); }
     .bio-link.-dark.-fancy {
-      border-bottom-color: rgba(57, 59, 70, 0.9);
+      border-bottom-color: rgba(57, 59, 70, 0.8);
       border-bottom: 1px solid; }
       .bio-link.-dark.-fancy:hover, .bio-link.-dark.-fancy:focus, .bio-link.-dark.-fancy.-active {
         border-color: rgba(57, 59, 70, 0);
-        background-color: rgba(57, 59, 70, 0.1); }
+        background-color: rgba(57, 59, 70, 0); }
   .bio-link.-white {
     color: white; }
     .bio-link.-white:hover, .bio-link.-white:focus, .bio-link.-white.-active {
@@ -393,8 +390,8 @@ progress.bio-progress[value] {
   display: block;
   padding: 8px;
   border-radius: 2px;
-  background-color: #1f9eff;
-  border: 1px solid #1f9eff;
+  background-color: #1a9cff;
+  border: 1px solid #1a9cff;
   text-align: center;
   cursor: pointer;
   line-height: 150%;
@@ -403,35 +400,35 @@ progress.bio-progress[value] {
   user-select: none;
   transition: transform 0.18s ease, box-shadow 0.18s ease, background-color 0.18s ease, border-color 0.18s ease; }
   .bio-button:hover {
-    background-color: #38a9ff;
-    border-color: #38a9ff; }
+    background-color: #33a7ff;
+    border-color: #33a7ff; }
   .bio-button.-primary {
-    background-color: #1f9eff;
-    border: 1px solid #1f9eff; }
+    background-color: #1a9cff;
+    border: 1px solid #1a9cff; }
     .bio-button.-primary.-outline {
       background-color: transparent; }
       .bio-button.-primary.-outline.-loading {
         color: transparent; }
         .bio-button.-primary.-outline.-loading:after {
-          border-left-color: #1f9eff;
-          border-bottom-color: #1f9eff; }
+          border-left-color: #1a9cff;
+          border-bottom-color: #1a9cff; }
     .bio-button.-primary:not(.-outline):hover {
-      background-color: #38a9ff;
-      border-color: #38a9ff; }
+      background-color: #33a7ff;
+      border-color: #33a7ff; }
   .bio-button.-accent {
-    background-color: #ff3355;
-    border: 1px solid #ff3355; }
+    background-color: #ff4d6a;
+    border: 1px solid #ff4d6a; }
     .bio-button.-accent.-outline {
-      color: #ff3355;
+      color: #ff4d6a;
       background-color: transparent; }
       .bio-button.-accent.-outline.-loading {
         color: transparent; }
         .bio-button.-accent.-outline.-loading:after {
-          border-left-color: #ff3355;
-          border-bottom-color: #ff3355; }
+          border-left-color: #ff4d6a;
+          border-bottom-color: #ff4d6a; }
     .bio-button.-accent:not(.-outline):hover {
-      background-color: #ff6680;
-      border-color: #ff6680; }
+      background-color: #ff8095;
+      border-color: #ff8095; }
   .bio-button.-positive {
     background-color: #17cf73;
     border: 1px solid #17cf73; }
@@ -489,19 +486,19 @@ progress.bio-progress[value] {
       background-color: #ff5c5c;
       border-color: #ff5c5c; }
   .bio-button.-dark {
-    background-color: rgba(57, 59, 70, 0.9);
-    border: 1px solid rgba(57, 59, 70, 0.9); }
+    background-color: rgba(57, 59, 70, 0.8);
+    border: 1px solid rgba(57, 59, 70, 0.8); }
     .bio-button.-dark.-outline {
-      color: rgba(57, 59, 70, 0.9);
+      color: rgba(57, 59, 70, 0.8);
       background-color: transparent; }
       .bio-button.-dark.-outline.-loading {
         color: transparent; }
         .bio-button.-dark.-outline.-loading:after {
-          border-left-color: rgba(57, 59, 70, 0.9);
-          border-bottom-color: rgba(57, 59, 70, 0.9); }
+          border-left-color: rgba(57, 59, 70, 0.8);
+          border-bottom-color: rgba(57, 59, 70, 0.8); }
     .bio-button.-dark:not(.-outline):hover {
-      background-color: rgba(69, 71, 84, 0.9);
-      border-color: rgba(69, 71, 84, 0.9); }
+      background-color: rgba(69, 71, 84, 0.8);
+      border-color: rgba(69, 71, 84, 0.8); }
   .bio-button.-black {
     background-color: black;
     border: 1px solid black; }
@@ -516,7 +513,7 @@ progress.bio-progress[value] {
   .bio-button.-gray {
     background-color: rgba(230, 229, 229, 0.8);
     border: 1px solid rgba(230, 229, 229, 0.8);
-    color: rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8); }
     .bio-button.-gray.-outline {
       color: rgba(230, 229, 229, 0.8);
       background-color: transparent; }
@@ -527,7 +524,7 @@ progress.bio-progress[value] {
           border-bottom-color: rgba(230, 229, 229, 0.8); }
   .bio-button.-white {
     background-color: white;
-    color: rgba(57, 59, 70, 0.9);
+    color: rgba(57, 59, 70, 0.8);
     border: 1px solid rgba(230, 229, 229, 0.8); }
     .bio-button.-white.-outline {
       color: white;
@@ -560,8 +557,8 @@ progress.bio-progress[value] {
       border-left-color: white;
       border-bottom-color: white; }
     .bio-button.-loading.-white:after {
-      border-left-color: rgba(57, 59, 70, 0.9);
-      border-bottom-color: rgba(57, 59, 70, 0.9); }
+      border-left-color: rgba(57, 59, 70, 0.8);
+      border-bottom-color: rgba(57, 59, 70, 0.8); }
 
 @keyframes spinAround {
   from {
@@ -596,7 +593,7 @@ input[type="checkbox"] {
   .bio-checkbox:not(.-switch) > input[type="checkbox"]:checked + label::after {
     content: ""; }
   .bio-checkbox:not(.-switch) > input[type="checkbox"]:focus + label::before {
-    box-shadow: 0 0 0 2px rgba(31, 158, 255, 0.3); }
+    box-shadow: 0 0 0 2px rgba(26, 156, 255, 0.3); }
 
 .bio-checkbox:not(.-switch) > label {
   position: relative;
@@ -614,7 +611,7 @@ input[type="checkbox"] {
     height: 20px;
     left: 0px;
     background-color: white;
-    border: 2px solid #1f9eff;
+    border: 2px solid #1a9cff;
     border-radius: 2px;
     box-sizing: border-box; }
   .bio-checkbox:not(.-switch) > label:after {
@@ -627,7 +624,7 @@ input[type="checkbox"] {
     border-bottom-width: 3px;
     border-left-style: solid;
     border-bottom-style: solid;
-    border-color: #1f9eff;
+    border-color: #1a9cff;
     transform: rotate(-45deg); }
 
 .bio-radio > input[type="radio"] {
@@ -637,7 +634,7 @@ input[type="checkbox"] {
   .bio-radio > input[type="radio"]:checked + label::after {
     content: ""; }
   .bio-radio > input[type="radio"]:focus + label::before {
-    box-shadow: 0 0 0 2px rgba(31, 158, 255, 0.3); }
+    box-shadow: 0 0 0 2px rgba(26, 156, 255, 0.3); }
 
 .bio-radio > label {
   position: relative;
@@ -655,8 +652,8 @@ input[type="checkbox"] {
     width: 22px;
     height: 22px;
     left: 0px;
-    border: 2px solid rgba(57, 59, 70, 0.9);
-    border-color: #1f9eff;
+    border: 2px solid rgba(57, 59, 70, 0.8);
+    border-color: #1a9cff;
     border-radius: 50%;
     background-color: white; }
   .bio-radio > label:after {
@@ -665,15 +662,15 @@ input[type="checkbox"] {
     width: 12px;
     top: 5px;
     left: 5px;
-    background-color: #1f9eff;
-    border-color: #1f9eff;
+    background-color: #1a9cff;
+    border-color: #1a9cff;
     border-radius: 50%; }
 
 .bio-checkbox > input[type="radio"]:checked + label::after {
   content: ""; }
 
 .bio-checkbox > input[type="radio"]:focus + label::before {
-  box-shadow: 0 0 0 2px rgba(31, 158, 255, 0.3); }
+  box-shadow: 0 0 0 2px rgba(26, 156, 255, 0.3); }
 
 .bio-checkbox.-switch > input[type="checkbox"] {
   position: relative;
@@ -688,7 +685,7 @@ input[type="checkbox"] {
   transition: all .2s ease-in-out;
   outline: none; }
   .bio-checkbox.-switch > input[type="checkbox"]:checked {
-    background-color: #1f9eff; }
+    background-color: #1a9cff; }
   .bio-checkbox.-switch > input[type="checkbox"]:after {
     content: " ";
     position: absolute;
@@ -717,9 +714,9 @@ input[type="checkbox"] {
     pointer-events: none; }
   .bio-file > input[type="file"] + * {
     display: block;
-    border: 1px solid rgba(57, 59, 70, 0.9);
+    border: 1px solid rgba(57, 59, 70, 0.8);
     background-color: white;
-    color: rgba(57, 59, 70, 0.9);
+    color: rgba(57, 59, 70, 0.8);
     border-color: rgba(230, 229, 229, 0.8);
     border-radius: 2px;
     cursor: pointer;
@@ -736,7 +733,7 @@ input[type="checkbox"] {
       margin-right: 12px; }
     .bio-file > input[type="file"] + *:hover {
       background-color: rgba(255, 255, 255, 0.8);
-      border-color: rgba(185, 187, 198, 0.9); }
+      border-color: rgba(185, 187, 198, 0.8); }
 
 .bio-input > input,
 .bio-textarea > textarea,
@@ -746,9 +743,9 @@ input[type="checkbox"] {
   appearance: none;
   background-color: white;
   border-radius: 4px;
-  border: 1px solid rgba(57, 59, 70, 0.9);
+  border: 1px solid rgba(57, 59, 70, 0.8);
   border-color: rgba(230, 229, 229, 0.8);
-  color: rgba(57, 59, 70, 0.9);
+  color: rgba(57, 59, 70, 0.8);
   width: 100%;
   vertical-align: top;
   padding-left: 12px;
@@ -765,8 +762,8 @@ input[type="checkbox"] {
   .bio-textarea > textarea :active,
   .bio-select > select:focus,
   .bio-select > select :active {
-    border-color: #1f9eff;
-    box-shadow: 0 0 0 2px rgba(31, 158, 255, 0.3); }
+    border-color: #1a9cff;
+    box-shadow: 0 0 0 2px rgba(26, 156, 255, 0.3); }
 
 .bio-field.-accent > .bio-input > input,
 .bio-field.-accent > .bio-input > textarea,
@@ -777,7 +774,7 @@ input[type="checkbox"] {
 .bio-field.-accent > .bio-select > input,
 .bio-field.-accent > .bio-select > textarea,
 .bio-field.-accent > .bio-select > select {
-  border-color: #ff3355; }
+  border-color: #ff4d6a; }
   .bio-field.-accent > .bio-input > input:focus, .bio-field.-accent > .bio-input > input :active,
   .bio-field.-accent > .bio-input > textarea:focus,
   .bio-field.-accent > .bio-input > textarea :active,
@@ -795,12 +792,12 @@ input[type="checkbox"] {
   .bio-field.-accent > .bio-select > textarea :active,
   .bio-field.-accent > .bio-select > select:focus,
   .bio-field.-accent > .bio-select > select :active {
-    box-shadow: 0 0 0 2px rgba(255, 51, 85, 0.3); }
+    box-shadow: 0 0 0 2px rgba(255, 77, 106, 0.3); }
 
 .bio-field.-accent > .bio-input + *,
 .bio-field.-accent > .bio-textarea + *,
 .bio-field.-accent > .bio-select + * {
-  color: #ff3355; }
+  color: #ff4d6a; }
 
 .bio-field.-positive > .bio-input > input,
 .bio-field.-positive > .bio-input > textarea,
@@ -954,7 +951,7 @@ input[type="checkbox"] {
 .bio-field.-disabled > .bio-input + *,
 .bio-field.-disabled > .bio-textarea + *,
 .bio-field.-disabled > .bio-select + * {
-  color: rgba(57, 59, 70, 0.9); }
+  color: rgba(57, 59, 70, 0.8); }
 
 .bio-field.-disabled .bio-checkbox:not(.-switch) {
   opacity: .5; }
@@ -964,11 +961,11 @@ input[type="checkbox"] {
     .bio-field.-disabled .bio-checkbox:not(.-switch) > input[type="checkbox"]:before,
     .bio-field.-disabled .bio-checkbox:not(.-switch) > label:before {
       opacity: .5;
-      border-color: rgba(57, 59, 70, 0.9); }
+      border-color: rgba(57, 59, 70, 0.8); }
     .bio-field.-disabled .bio-checkbox:not(.-switch) > input[type="checkbox"]:after,
     .bio-field.-disabled .bio-checkbox:not(.-switch) > label:after {
       opacity: .5;
-      border-color: rgba(57, 59, 70, 0.9); }
+      border-color: rgba(57, 59, 70, 0.8); }
 
 .bio-field.-disabled .bio-checkbox.-switch {
   opacity: .5; }
@@ -983,11 +980,11 @@ input[type="checkbox"] {
     cursor: not-allowed; }
     .bio-field.-disabled .bio-radio > input[type="radio"]:before,
     .bio-field.-disabled .bio-radio > label:before {
-      border-color: rgba(57, 59, 70, 0.4); }
+      border-color: rgba(57, 59, 70, 0.3); }
     .bio-field.-disabled .bio-radio > input[type="radio"]:after,
     .bio-field.-disabled .bio-radio > label:after {
-      background-color: rgba(57, 59, 70, 0.4);
-      border-color: rgba(57, 59, 70, 0.4); }
+      background-color: rgba(57, 59, 70, 0.3);
+      border-color: rgba(57, 59, 70, 0.3); }
 
 .bio-field.-disabled .bio-file {
   opacity: .5; }
@@ -1002,7 +999,7 @@ input[type="checkbox"] {
     padding: 8px;
     box-shadow: none; }
     .bio-select.-multiple > select > option:checked {
-      background: linear-gradient(#0593ff, #1f9eff, 5%); }
+      background: linear-gradient(#0091ff, #1a9cff, 5%); }
 
 .bio-select:not(.-multiple) {
   position: relative; }
@@ -1010,7 +1007,7 @@ input[type="checkbox"] {
     padding-right: 32px; }
   .bio-select:not(.-multiple):after {
     content: " ";
-    border: 2px solid rgba(57, 59, 70, 0.9);
+    border: 2px solid rgba(57, 59, 70, 0.8);
     border-right-width: 0px;
     border-top-width: 0px;
     height: 8px;
@@ -1058,16 +1055,16 @@ input[type="checkbox"] {
   .bio-card > .bio-card-title {
     grid-area: title;
     font-size: 1.5rem;
-    color: rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8); }
   .bio-card > .bio-card-subtitle {
     grid-area: subtitle;
     font-size: 0.75rem;
     opacity: .6;
-    color: rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8); }
   .bio-card > .bio-card-content {
     grid-area: content;
     padding-top: 12px;
-    color: rgba(57, 59, 70, 0.9);
+    color: rgba(57, 59, 70, 0.8);
     line-height: 125%; }
     .bio-card > .bio-card-content:first-child {
       padding-top: 0px; }
@@ -1077,7 +1074,7 @@ input[type="checkbox"] {
     flex-wrap: wrap;
     justify-content: flex-end;
     margin-top: 16px;
-    color: rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8); }
     .bio-card > .bio-card-actions > *:not(:last-child) {
       margin-right: 16px; }
     .bio-card > .bio-card-actions.-push-left {
@@ -1094,11 +1091,6 @@ input[type="checkbox"] {
         text-align: center; }
         .bio-card > .bio-card-actions.-attached > *:not(:last-child) {
           border-right: 1px solid rgba(230, 229, 229, 0.4); }
-
-.bio-panel {
-  background-color: white;
-  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.08);
-  border-radius: 3px; }
 
 .bio-tooltip {
   position: relative; }
@@ -1120,7 +1112,7 @@ input[type="checkbox"] {
     opacity: 0;
     font-size: 86%;
     line-height: 125%;
-    border: 1px solid rgba(57, 59, 70, 0.9);
+    border: 1px solid rgba(57, 59, 70, 0.8);
     border-color: rgba(230, 229, 229, 0.8);
     padding: 8px 12px;
     background-color: white;
@@ -1209,13 +1201,13 @@ input[type="checkbox"] {
   border-radius: 2px;
   grid-template-columns: 1fr auto;
   grid-template-areas: "content close";
-  color: #1f9eff;
-  background-color: #dbf0ff;
-  border-left: 4px solid #1f9eff; }
+  color: #1a9cff;
+  background-color: #d6edff;
+  border-left: 4px solid #1a9cff; }
   .bio-message.-accent {
-    color: #ff3355;
-    background-color: #ffccd5;
-    border-left: 4px solid #ff3355; }
+    color: #ff4d6a;
+    background-color: #ffe6ea;
+    border-left: 4px solid #ff4d6a; }
   .bio-message.-negative {
     color: #ff4d4d;
     background-color: #ffe6e6;
@@ -1233,9 +1225,9 @@ input[type="checkbox"] {
     background-color: #ebf8ff;
     border-left: 4px solid #4dc4ff; }
   .bio-message.-dark {
-    color: rgba(57, 59, 70, 0.9);
-    background-color: rgba(235, 236, 239, 0.9);
-    border-left: 4px solid rgba(57, 59, 70, 0.9); }
+    color: rgba(57, 59, 70, 0.8);
+    background-color: rgba(235, 236, 239, 0.8);
+    border-left: 4px solid rgba(57, 59, 70, 0.8); }
   .bio-message > .bio-message-close {
     grid-area: close;
     user-select: none;
@@ -1253,10 +1245,10 @@ input[type="checkbox"] {
   margin-bottom: 16px; }
   .bio-table th {
     padding: 16px;
-    border: 1px solid rgba(57, 59, 70, 0.9);
-    border-color: #819bbb; }
+    border: 1px solid rgba(57, 59, 70, 0.8);
+    border-color: #6a89af; }
   .bio-table td {
     vertical-align: top;
     padding: 16px;
-    border: 1px solid rgba(57, 59, 70, 0.9);
-    border-color: #819bbb; }
+    border: 1px solid rgba(57, 59, 70, 0.8);
+    border-color: #6a89af; }

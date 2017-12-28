@@ -26,7 +26,7 @@ strong {
   font-weight: bolder; }
 
 small {
-  font-size: 80%; }
+  font-size: .8rem; }
 
 h1, h2, h3, h4, h5 {
   margin: 0; }
@@ -160,14 +160,11 @@ i {
   Mapping Value
 ======================================*/
 html {
-  color: rgba(57, 59, 70, 0.9);
+  color: rgba(57, 59, 70, 0.8);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
-
-._font-secondary {
-  font-family: "Prompt", sans-serif; }
 
 .u-animation-pulse {
   animation: pulse .35s infinite alternate; }
@@ -252,13 +249,13 @@ html {
     width: 100%;
     top: 50%;
     left: 0px;
-    background-color: #1f9eff; }
+    background-color: #1a9cff; }
   .u-close:hover:before, .u-close:hover:after {
-    background-color: #008bf5; }
+    background-color: #0088f0; }
   .u-close.-accent:before, .u-close.-accent:after {
-    background-color: #ff3355; }
+    background-color: #ff4d6a; }
   .u-close.-accent:hover:before, .u-close.-accent:hover:after {
-    background-color: #ff0a33; }
+    background-color: #ff2448; }
   .u-close.-negative:before, .u-close.-negative:after {
     background-color: #ff4d4d; }
   .u-close.-negative:hover:before, .u-close.-negative:hover:after {
@@ -276,9 +273,9 @@ html {
   .u-close.-info:hover:before, .u-close.-info:hover:after {
     background-color: #24b6ff; }
   .u-close.-dark:before, .u-close.-dark:after {
-    background-color: rgba(57, 59, 70, 0.9); }
+    background-color: rgba(57, 59, 70, 0.8); }
   .u-close.-dark:hover:before, .u-close.-dark:hover:after {
-    background-color: rgba(39, 40, 48, 0.9); }
+    background-color: rgba(39, 40, 48, 0.8); }
   .u-close:before {
     transform: rotate(45deg); }
   .u-close:after {

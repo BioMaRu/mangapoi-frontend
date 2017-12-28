@@ -26,7 +26,7 @@ strong {
   font-weight: bolder; }
 
 small {
-  font-size: 80%; }
+  font-size: .8rem; }
 
 h1, h2, h3, h4, h5 {
   margin: 0; }
@@ -160,14 +160,11 @@ i {
   Mapping Value
 ======================================*/
 html {
-  color: rgba(57, 59, 70, 0.9);
+  color: rgba(57, 59, 70, 0.8);
   font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility; }
-
-._font-secondary {
-  font-family: "Prompt", sans-serif; }
 
 .lo-container {
   display: grid;

@@ -9,15 +9,15 @@
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <link href="https://fonts.googleapis.com/css?family=Prompt:400,600" rel="stylesheet">
 </head>
-<body class="_bgcl-neutral-200">
+<body class="_bgcl-neutral-100">
   <div id="app">
 
-    <nav class="_dp-f _jtfct-spbtw _alit-str _bgcl-neutral-900 _cl-white _pdh-16px" style="height: 72px">
-      <div class="_dp-f _alit-ct">
-        <img src="" alt="logo">
+    <nav class="_dp-f _jtfct-spbtw _alit-str _cl-white _pdh-16px" style="height: 72px">
+      <div class="_cs-pt _dp-f _alit-ct">
+        <img src="assets/images/poi-logo.svg" alt="logo">
       </div>
       <div class="_dp-f">
-        <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
+        <a href="/" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
           Menu 1
         </a>
         <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
@@ -26,31 +26,41 @@
         <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
           Menu 3
         </a>
+        <a href="#" class="_dp-f _alit-ct _pdh-16px _cl-white _cl-accent-hover">
+          Menu 3
+        </a>
       </div>
     </nav>
 
-    <!-- Top -->
-    <div class="_dp-f _alit-ct _jtfct-ct _bgcl-neutral-800 _cl-white" style="height: 250px">
-      BANNER CONTENT
-    </div>
+    <!-- Top Banner -->
+    <header class="_pst-rlt _cl-white">
+      <div class="poi-grad-1 _pst-asl _w-100pct _h-30pct _ovf-hd _zid--1" style="transform: skewY(-8deg); transform-origin: 0; top: -120px;"></div>
+      <div class="poi-grad-1 _pst-asl _w-100pct _h-100pct _ovf-hd _zid--1" style="transform: skewY(-8deg); transform-origin: 0;"></div>
+      <div class="lo-container _mgt-32px _mgbt-48px _opct-50" style="height: 500px">
+        <div class="u-rise-5 _w-100pct _h-256px _bgcl-secondary _bdrd-4px"></div>
+      </div>
+    </header>
 
-    <div class="lo-container">
+    <!-- Content -->
+    <div class="lo-container _pst-rlt" style="top: -250px">
       <div class="_dp-f">
         <div class="_f-1">
-          <h2 class="_font-secondary _cl-neutral-700">อัพเดตตอนใหม่</h2>
+          <h3 class="poi-heading _ffml-secondary _cl-white">อัพเดตตอนใหม่</h3>
           <div class="lo-12 lo-6-lg -gapv-16px -gaph-4px">
             <manga-card v-for="i in 8" :key="i"></manga-card>
           </div>
         </div>
-        <div class="bio-panel _als-fst _pd-16px _mgl-32px _mgt-64px" style="width: 350px">
+        <div class="bio-panel _als-fst _pd-16px _mgl-32px _bgcl-white _bdrd-12px u-rise-1 _h-512px" style="width: 350px">
           a
         </div>
       </div>
     </div>
 
+
     <section class="_mgt-32px _bgcl-white _h-256px">
       asas
     </section>
+
 
     <footer class="_pd-32px _bgcl-neutral-700 _cl-white">
       Footer
@@ -68,25 +78,23 @@
         height="auto"
         alt="cover">
     </a>
-    <a href="#" class="title">
+    <a href="#" class="title poi-link _cl-accent">
       <h5>Neko Aimashita</h5>
     </a>
-    <a href="#" class="author">
-      <div>
-        <small>แปล – Rabbitbou</small>
-      </div>
+    <a href="#" class="author poi-link">
+      แปล – Rabbitbou
     </a>
     <div class="time">
-      <small>เมื่อ 6 นาทีที่แล้ว</small>
+      เมื่อ 6 นาทีที่แล้ว
     </div>
     <div class="chapter">
-      <a class="" href="#">
-        <p>
+      <a href="#" class="poi-link _cl-dark">
+        <p class="_fs-7">
           <strong class="_cl-accent">ตอนที่ 11</strong> – การหลบหนีครั้งใหญ่ (ครึ่งหลัง)
         </p>
       </a>
-      <a href="#">
-        <p>
+      <a href="#" class="poi-link _cl-dark">
+        <p class="_fs-7">
           <strong class="_cl-accent">ตอนที่ 10</strong> – การหลบหนีครั้งใหญ่ (ครึ่งแรก)
         </p>
       </a>
